@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../image/portfolio-background.jfif ');
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.logo{
+    color: white;
+    font-size: 45px;
+    padding-left: 100px;
+    letter-spacing: 4px;
+}
+.menu
+a{
+    color: white;
+    text-decoration: solid;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.menu{
+    margin-right: 100px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: red;
+}
+.menu a:hover{
+    background: red;
+    transition: 0.4;
+}
+
+.text
+{
+    color: deeppink;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 50px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url('../image/1\ \(1\).jpg');
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+ .about-left-col img{  
+    width: 100%;
+    padding: 50px;
+
+
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+#title{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2cm;
+    font-weight: bolder;
+}
+#para
+{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#Skill{
+    padding: 100px 50px;
+
+}
+.abt-skill h1{
+    font-size: 45px;
+    text-align: center;
+    line-height: 2cm;
+    color: black;
+
+}
+.abt-skill p{
+    font-size: 20px;
+    line-height: 10mm;
+    text-align: left;
+    font-weight: bold
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald' sans-serif;
+}
+.contact-us{
+    width: 350px;
+    line-height: 0.5mm;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.form,
+.form-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.form-items .input{
+    width: 50%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.form-items .input.message
+{
+    height: 125px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    resize: none;
+}
+
+.btn{
+    background-color: red;
+    text-align: center;
+    color: black;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .contact-us{
+      line-height: 1.25cm;
+      background-color: gainsboro;
+  }
+  .contact-info{
+      line-height: 1.5cm;
+      text-align: center;
+  }
